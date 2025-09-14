@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>test_login_ddt.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+test_login_ddt.py</font>
+</center></td></tr></table>
+<pre><span class="s0">from </span><span class="s1">selenium</span><span class="s2">.</span><span class="s1">webdriver</span><span class="s2">.</span><span class="s1">common</span><span class="s2">.</span><span class="s1">by </span><span class="s0">import </span><span class="s1">By</span>
+<span class="s0">from </span><span class="s1">selenium</span><span class="s2">.</span><span class="s1">webdriver</span><span class="s2">.</span><span class="s1">support</span><span class="s2">.</span><span class="s1">ui </span><span class="s0">import </span><span class="s1">WebDriverWait</span>
+<span class="s0">from </span><span class="s1">selenium</span><span class="s2">.</span><span class="s1">webdriver</span><span class="s2">.</span><span class="s1">support </span><span class="s0">import </span><span class="s1">expected_conditions </span><span class="s0">as </span><span class="s1">EC</span>
+<span class="s0">import </span><span class="s1">time</span>
+<span class="s0">import </span><span class="s1">pytest</span>
+<span class="s0">from </span><span class="s1">selenium </span><span class="s0">import </span><span class="s1">webdriver</span>
+<span class="s0">from </span><span class="s1">pageObjects</span><span class="s2">.</span><span class="s1">LoginPage </span><span class="s0">import </span><span class="s1">LoginPage</span>
+<span class="s0">from </span><span class="s1">utilities</span><span class="s2">.</span><span class="s1">readProperties </span><span class="s0">import </span><span class="s1">Readconfig</span>
+<span class="s0">from </span><span class="s1">utilities</span><span class="s2">.</span><span class="s1">customeLogger </span><span class="s0">import </span><span class="s1">LogGen</span>
+<span class="s0">from </span><span class="s1">utilities </span><span class="s0">import </span><span class="s1">XLUtils</span>
+
+<span class="s0">class </span><span class="s1">Test_002_DDT_Login</span><span class="s2">:</span>
+   <span class="s1">baseURL </span><span class="s2">= </span><span class="s1">Readconfig</span><span class="s2">.</span><span class="s1">getApplicationURL</span><span class="s2">()</span>
+   <span class="s1">path</span><span class="s2">=</span><span class="s3">&quot;.//TestData/LoginData.xlsx&quot;</span>
+   <span class="s1">logger</span><span class="s2">=</span><span class="s1">LogGen</span><span class="s2">.</span><span class="s1">loggen</span><span class="s2">()</span>
+
+
+   <span class="s0">def </span><span class="s1">test_login_ddt</span><span class="s2">(</span><span class="s1">self</span><span class="s2">,</span><span class="s1">setup</span><span class="s2">):</span>
+       <span class="s1">self</span><span class="s2">.</span><span class="s1">logger</span><span class="s2">.</span><span class="s1">info</span><span class="s2">(</span><span class="s3">&quot;************ Test_002_DDT_Login ***************&quot;</span><span class="s2">)</span>
+       <span class="s1">self</span><span class="s2">.</span><span class="s1">logger</span><span class="s2">.</span><span class="s1">info</span><span class="s2">(</span><span class="s3">&quot;************ Verifying Login DDT test ***************&quot;</span><span class="s2">)</span>
+       <span class="s1">self</span><span class="s2">.</span><span class="s1">driver </span><span class="s2">= </span><span class="s1">setup</span>
+       <span class="s1">self</span><span class="s2">.</span><span class="s1">driver</span><span class="s2">.</span><span class="s1">get</span><span class="s2">(</span><span class="s1">self</span><span class="s2">.</span><span class="s1">baseURL</span><span class="s2">)</span>
+
+       <span class="s1">self</span><span class="s2">.</span><span class="s1">lp</span><span class="s2">=</span><span class="s1">LoginPage</span><span class="s2">(</span><span class="s1">self</span><span class="s2">.</span><span class="s1">driver</span><span class="s2">)</span>
+
+       <span class="s1">self</span><span class="s2">.</span><span class="s1">rows</span><span class="s2">=</span><span class="s1">XLUtils</span><span class="s2">.</span><span class="s1">getRowCount</span><span class="s2">(</span><span class="s1">self</span><span class="s2">.</span><span class="s1">path</span><span class="s2">,</span><span class="s3">'Sheet1'</span><span class="s2">)</span>
+       <span class="s1">print</span><span class="s2">(</span><span class="s3">&quot;Number of Rows is a Excel :&quot;</span><span class="s2">,</span><span class="s1">self</span><span class="s2">.</span><span class="s1">rows</span><span class="s2">)</span>
+
+       <span class="s1">lst_status</span><span class="s2">=[]  </span><span class="s4">#empty list variable</span>
+       <span class="s0">for </span><span class="s1">r </span><span class="s0">in </span><span class="s1">range</span><span class="s2">(</span><span class="s5">2</span><span class="s2">,</span><span class="s1">self</span><span class="s2">.</span><span class="s1">rows</span><span class="s2">+</span><span class="s5">1</span><span class="s2">):</span>
+           <span class="s1">self</span><span class="s2">.</span><span class="s1">user</span><span class="s2">=</span><span class="s1">XLUtils</span><span class="s2">.</span><span class="s1">readData</span><span class="s2">(</span><span class="s1">self</span><span class="s2">.</span><span class="s1">path</span><span class="s2">,</span><span class="s3">'Sheet1'</span><span class="s2">,</span><span class="s1">r</span><span class="s2">,</span><span class="s5">1</span><span class="s2">)</span>
+           <span class="s1">self</span><span class="s2">.</span><span class="s1">password</span><span class="s2">=</span><span class="s1">XLUtils</span><span class="s2">.</span><span class="s1">readData</span><span class="s2">(</span><span class="s1">self</span><span class="s2">.</span><span class="s1">path</span><span class="s2">,</span><span class="s3">'Sheet1'</span><span class="s2">,</span><span class="s1">r</span><span class="s2">,</span><span class="s5">2</span><span class="s2">)</span>
+           <span class="s1">self</span><span class="s2">.</span><span class="s1">exp</span><span class="s2">= </span><span class="s1">XLUtils</span><span class="s2">.</span><span class="s1">readData</span><span class="s2">(</span><span class="s1">self</span><span class="s2">.</span><span class="s1">path</span><span class="s2">, </span><span class="s3">'Sheet1'</span><span class="s2">, </span><span class="s1">r</span><span class="s2">, </span><span class="s5">3</span><span class="s2">)</span>
+
+           <span class="s1">self</span><span class="s2">.</span><span class="s1">lp</span><span class="s2">.</span><span class="s1">setUserName</span><span class="s2">(</span><span class="s1">self</span><span class="s2">.</span><span class="s1">user</span><span class="s2">)</span>
+           <span class="s1">self</span><span class="s2">.</span><span class="s1">lp</span><span class="s2">.</span><span class="s1">setPassword</span><span class="s2">(</span><span class="s1">self</span><span class="s2">.</span><span class="s1">password</span><span class="s2">)</span>
+           <span class="s1">self</span><span class="s2">.</span><span class="s1">lp</span><span class="s2">.</span><span class="s1">clickLogin</span><span class="s2">()</span>
+           <span class="s1">time</span><span class="s2">.</span><span class="s1">sleep</span><span class="s2">(</span><span class="s5">5</span><span class="s2">)</span>
+
+       <span class="s4"># try:</span>
+       <span class="s4">#     checkbox = WebDriverWait(self.driver, 25).until(</span>
+       <span class="s4">#         EC.element_to_be_clickable((By.XPATH,&quot;//input[@id='jIMU1']&quot;))  # replace with actual locator</span>
+       <span class="s4">#     )</span>
+       <span class="s4">#     checkbox.click()</span>
+       <span class="s4"># except:</span>
+       <span class="s4">#     # No checkbox appeared — continue</span>
+       <span class="s4">#     #</span>
+       <span class="s4">#     pass</span>
+       <span class="s4">#</span>
+       <span class="s4">#     # Now wait until Dashboard title appears</span>
+       <span class="s4"># WebDriverWait(self.driver, 10).until(</span>
+       <span class="s4">#     EC.title_is(&quot;Dashboard / nopCommerce administration&quot;)</span>
+       <span class="s4"># )</span>
+
+       <span class="s1">act_title </span><span class="s2">= </span><span class="s1">self</span><span class="s2">.</span><span class="s1">driver</span><span class="s2">.</span><span class="s1">title</span>
+       <span class="s1">exp_title </span><span class="s2">= </span><span class="s3">&quot;Dashboard / nopCommerce administration&quot;</span>
+
+       <span class="s0">if </span><span class="s1">act_title </span><span class="s2">== </span><span class="s1">exp_title</span><span class="s2">:</span>
+           <span class="s0">if </span><span class="s1">self</span><span class="s2">.</span><span class="s1">exp </span><span class="s2">== </span><span class="s3">&quot;Pass&quot;</span><span class="s2">:</span>
+               <span class="s1">self</span><span class="s2">.</span><span class="s1">logger</span><span class="s2">.</span><span class="s1">info</span><span class="s2">(</span><span class="s3">&quot;**** Passed&quot;</span><span class="s2">)</span>
+               <span class="s1">self</span><span class="s2">.</span><span class="s1">lp</span><span class="s2">.</span><span class="s1">clickLogout</span><span class="s2">()</span>
+               <span class="s1">lst_status</span><span class="s2">.</span><span class="s1">append</span><span class="s2">(</span><span class="s3">&quot;Pass&quot;</span><span class="s2">)</span>
+           <span class="s0">elif </span><span class="s1">self</span><span class="s2">.</span><span class="s1">exp </span><span class="s2">== </span><span class="s3">&quot;Fail&quot;</span><span class="s2">:</span>
+               <span class="s1">self</span><span class="s2">.</span><span class="s1">logger</span><span class="s2">.</span><span class="s1">info</span><span class="s2">(</span><span class="s3">&quot;****** Failed *******&quot;</span><span class="s2">)</span>
+               <span class="s1">self</span><span class="s2">.</span><span class="s1">lp</span><span class="s2">.</span><span class="s1">clickLogout</span><span class="s2">()</span>
+               <span class="s1">lst_status</span><span class="s2">.</span><span class="s1">append</span><span class="s2">(</span><span class="s3">&quot;Fail&quot;</span><span class="s2">)</span>
+
+       <span class="s0">elif </span><span class="s1">act_title </span><span class="s2">!= </span><span class="s1">exp_title</span><span class="s2">:</span>
+           <span class="s0">if </span><span class="s1">self</span><span class="s2">.</span><span class="s1">exp </span><span class="s2">== </span><span class="s3">&quot;Pass&quot;</span><span class="s2">:</span>
+               <span class="s1">self</span><span class="s2">.</span><span class="s1">logger</span><span class="s2">.</span><span class="s1">info</span><span class="s2">(</span><span class="s3">&quot;**** Failed *****&quot;</span><span class="s2">)</span>
+               <span class="s1">lst_status</span><span class="s2">.</span><span class="s1">append</span><span class="s2">(</span><span class="s3">&quot;Fail&quot;</span><span class="s2">)</span>
+           <span class="s0">elif </span><span class="s1">self</span><span class="s2">.</span><span class="s1">exp </span><span class="s2">== </span><span class="s3">&quot;Fail&quot;</span><span class="s2">:</span>
+               <span class="s1">self</span><span class="s2">.</span><span class="s1">logger</span><span class="s2">.</span><span class="s1">info</span><span class="s2">(</span><span class="s3">&quot;*** Passed *********&quot;</span><span class="s2">)</span>
+               <span class="s1">lst_status</span><span class="s2">.</span><span class="s1">append</span><span class="s2">(</span><span class="s3">&quot;Pass&quot;</span><span class="s2">)</span>
+
+       <span class="s0">if </span><span class="s3">&quot;Fail&quot; </span><span class="s0">not in </span><span class="s1">lst_status</span><span class="s2">:</span>
+           <span class="s1">self</span><span class="s2">.</span><span class="s1">logger</span><span class="s2">.</span><span class="s1">info</span><span class="s2">(</span><span class="s3">&quot;Login DDT test passed...&quot;</span><span class="s2">)</span>
+           <span class="s1">self</span><span class="s2">.</span><span class="s1">driver</span><span class="s2">.</span><span class="s1">close</span><span class="s2">()</span>
+           <span class="s0">assert True</span>
+       <span class="s0">else</span><span class="s2">:</span>
+           <span class="s1">self</span><span class="s2">.</span><span class="s1">logger</span><span class="s2">.</span><span class="s1">info</span><span class="s2">(</span><span class="s3">&quot;***** Login DDT test failed ******&quot;</span><span class="s2">)</span>
+           <span class="s1">self</span><span class="s2">.</span><span class="s1">driver</span><span class="s2">.</span><span class="s1">close</span><span class="s2">()</span>
+           <span class="s0">assert False</span>
+
+       <span class="s1">self</span><span class="s2">.</span><span class="s1">logger</span><span class="s2">.</span><span class="s1">info</span><span class="s2">(</span><span class="s3">&quot;****** End of Login DDT Test *******&quot;</span><span class="s2">)</span>
+       <span class="s1">self</span><span class="s2">.</span><span class="s1">logger</span><span class="s2">.</span><span class="s1">info</span><span class="s2">(</span><span class="s3">&quot;****** Completed TC_LoginDDT_002 ***********&quot;</span><span class="s2">)</span>
+
+
+
+</pre>
+</body>
+</html>

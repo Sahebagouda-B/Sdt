@@ -1,0 +1,333 @@
+2025-08-21 22:14:01,570 - INFO - *************** Test_001_Login ************
+2025-08-21 22:14:01,573 - INFO - ******** Verifying Home page Title*********
+2025-08-21 22:14:07,123 - INFO - ************ Home Page Title test is passed ***************
+2025-08-21 22:14:12,540 - INFO - ************ Verifying the Login test ***************
+2025-08-21 22:14:59,764 - INFO - ************  Login test pass ***************
+2025-08-21 22:42:45,891 - INFO - *************** Test_001_Login ************
+2025-08-21 22:42:46,953 - INFO - ******** Verifying Home page Title*********
+2025-08-21 22:42:51,657 - INFO - ************ Home Page Title test is passed ***************
+2025-08-21 22:42:56,983 - INFO - ************ Verifying the Login test ***************
+2025-08-21 22:43:42,816 - INFO - ************  Login test pass ***************
+2025-08-21 23:00:04,234 - INFO - *************** Test_001_Login ************
+2025-08-21 23:00:04,654 - INFO - ******** Verifying Home page Title*********
+2025-08-21 23:05:36,259 - INFO - ************ Verifying the Login test ***************
+2025-08-21 23:07:24,354 - INFO - *************** Test_001_Login ************
+2025-08-21 23:07:24,404 - INFO - ******** Verifying Home page Title*********
+2025-08-21 23:12:55,700 - INFO - ************ Verifying the Login test ***************
+2025-08-22 22:23:27,802 - INFO - ************ Verifying the Login test ***************
+2025-08-22 22:23:28,317 - INFO - *************** Test_001_Login ************
+2025-08-22 22:23:28,324 - INFO - ******** Verifying Home page Title*********
+2025-08-22 22:23:32,853 - INFO - ************ Home Page Title test is passed ***************
+2025-08-22 22:24:15,980 - INFO - ************  Login test pass ***************
+2025-08-22 22:27:33,283 - INFO - ************ Verifying the Login test ***************
+2025-08-22 22:27:33,526 - INFO - *************** Test_001_Login ************
+2025-08-22 22:27:33,527 - INFO - ******** Verifying Home page Title*********
+2025-08-22 22:27:38,164 - INFO - ************ Home Page Title test is passed ***************
+2025-08-22 22:28:20,744 - INFO - ************  Login test pass ***************
+2025-08-22 22:28:49,962 - INFO - *************** Test_001_Login ************
+2025-08-22 22:28:50,039 - INFO - ******** Verifying Home page Title*********
+2025-08-22 22:28:51,734 - INFO - ************ Verifying the Login test ***************
+2025-08-22 22:28:57,681 - INFO - ************ Home Page Title test is passed ***************
+2025-08-22 22:29:40,302 - INFO - ************  Login test pass ***************
+2025-08-22 23:29:05,163 - INFO - *************** Test_001_Login ************
+2025-08-22 23:29:05,178 - INFO - ******** Verifying Home page Title*********
+2025-08-22 23:29:05,580 - INFO - ************ Verifying the Login test ***************
+2025-08-22 23:29:19,708 - INFO - ************ Home Page Title test is passed ***************
+2025-08-22 23:29:59,489 - INFO - ************  Login test pass ***************
+2025-08-24 10:00:49,127 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 10:00:49,149 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 10:12:19,184 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 10:12:19,186 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 12:42:20,870 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 12:42:20,983 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 12:46:57,038 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 12:46:57,044 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 12:48:26,020 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 12:48:26,025 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 12:55:42,590 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 12:55:42,598 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 12:56:55,679 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 12:56:55,691 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 13:01:36,377 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 13:01:36,383 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 13:07:16,925 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 13:07:16,930 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 13:10:12,753 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 13:10:12,762 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 13:18:18,984 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 13:18:18,987 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 13:20:32,294 - INFO - *************** Test_001_Login ************
+2025-08-24 13:20:32,316 - INFO - ******** Verifying Home page Title*********
+2025-08-24 13:20:37,823 - INFO - ************ Home Page Title test is passed ***************
+2025-08-24 13:20:42,810 - INFO - ************ Verifying the Login test ***************
+2025-08-24 13:21:30,202 - INFO - ************  Login test pass ***************
+2025-08-24 13:22:26,106 - INFO - ************ Verifying the Login test ***************
+2025-08-24 13:22:27,988 - INFO - *************** Test_001_Login ************
+2025-08-24 13:22:28,002 - INFO - ******** Verifying Home page Title*********
+2025-08-24 13:22:35,297 - INFO - ************ Home Page Title test is passed ***************
+2025-08-24 13:23:17,634 - INFO - ************  Login test pass ***************
+2025-08-24 13:28:18,208 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 13:28:18,235 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 13:31:26,832 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 13:31:26,835 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 13:36:47,691 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 13:36:47,695 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 13:37:17,324 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 13:37:17,328 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 14:11:59,176 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 14:11:59,179 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 14:28:44,260 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 14:28:44,263 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 14:39:50,875 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 14:39:50,877 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 14:42:04,684 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 14:42:04,685 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 14:46:05,013 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 14:46:05,016 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 14:46:47,279 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 14:46:47,283 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 14:49:37,956 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 14:49:37,959 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 14:53:02,229 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 14:53:02,232 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 18:16:19,421 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 18:16:19,449 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 18:21:39,360 - INFO - *************** Test_001_Login ************
+2025-08-24 18:21:39,373 - INFO - ******** Verifying Home page Title*********
+2025-08-24 18:21:39,757 - INFO - ************ Verifying the Login test ***************
+2025-08-24 18:21:45,653 - INFO - ************ Home Page Title test is passed ***************
+2025-08-24 18:22:19,910 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 18:22:19,915 - INFO - ************ Verifying Login DDT test ***************
+2025-08-24 18:31:59,875 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-24 18:31:59,877 - INFO - ************ Verifying Login DDT test ***************
+2025-08-25 23:32:24,448 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-25 23:32:24,451 - INFO - ************ Verifying Login DDT test ***************
+2025-08-25 23:34:04,440 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-25 23:34:04,442 - INFO - ************ Verifying Login DDT test ***************
+2025-08-25 23:46:38,546 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-25 23:46:38,547 - INFO - ************ Verifying Login DDT test ***************
+2025-08-25 23:47:59,333 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-25 23:47:59,354 - INFO - ************ Verifying Login DDT test ***************
+2025-08-25 23:51:17,461 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-25 23:51:17,462 - INFO - ************ Verifying Login DDT test ***************
+2025-08-25 23:56:52,957 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-25 23:56:52,959 - INFO - ************ Verifying Login DDT test ***************
+2025-08-25 23:58:23,835 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-25 23:58:23,840 - INFO - ************ Verifying Login DDT test ***************
+2025-08-25 23:58:51,248 - INFO - *** Passed *********
+2025-08-25 23:59:02,521 - INFO - *** Passed *********
+2025-08-25 23:59:13,626 - INFO - *** Passed *********
+2025-08-25 23:59:13,627 - INFO - Login DDT test passed...
+2025-08-25 23:59:14,029 - INFO - ****** End of Login DDT Test *******
+2025-08-25 23:59:14,030 - INFO - ****** Completed TC_LoginDDT_002 ***********
+2025-08-25 23:59:32,913 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-25 23:59:32,932 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:04:19,124 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:04:19,127 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:07:54,214 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:07:54,216 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:09:44,154 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:09:44,156 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:12:36,828 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:12:36,830 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:15:01,542 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:15:01,543 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:16:35,377 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:16:35,380 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:19:15,574 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:19:15,596 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:20:42,003 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:20:42,008 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:21:34,957 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:21:34,961 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:22:58,257 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:22:58,259 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:24:07,556 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:24:07,563 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:24:39,370 - INFO - *** Passed *********
+2025-08-26 00:24:50,890 - INFO - *** Passed *********
+2025-08-26 00:25:02,817 - INFO - *** Passed *********
+2025-08-26 00:25:02,819 - INFO - Login DDT test passed...
+2025-08-26 00:25:03,102 - INFO - ****** End of Login DDT Test *******
+2025-08-26 00:25:03,102 - INFO - ****** Completed TC_LoginDDT_002 ***********
+2025-08-26 00:29:32,737 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:29:32,746 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:30:27,917 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:30:27,933 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:31:22,935 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:31:22,937 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:32:44,221 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:32:44,222 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:33:50,845 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:33:50,847 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:34:38,772 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:34:38,776 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:35:53,980 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:35:53,984 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:37:03,626 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-26 00:37:03,628 - INFO - ************ Verifying Login DDT test ***************
+2025-08-26 00:37:34,706 - INFO - *** Passed *********
+2025-08-26 00:37:46,494 - INFO - *** Passed *********
+2025-08-26 00:37:57,883 - INFO - *** Passed *********
+2025-08-26 00:37:57,884 - INFO - Login DDT test passed...
+2025-08-26 00:37:58,597 - INFO - ****** End of Login DDT Test *******
+2025-08-26 00:37:58,598 - INFO - ****** Completed TC_LoginDDT_002 ***********
+2025-08-27 15:08:35,334 - INFO - ************ Test_002_DDT_Login ***************
+2025-08-27 15:08:35,339 - INFO - ************ Verifying Login DDT test ***************
+2025-08-27 15:09:08,944 - INFO - *** Passed *********
+2025-08-27 15:09:32,682 - INFO - *** Passed *********
+2025-08-27 15:09:44,577 - INFO - *** Passed *********
+2025-08-27 15:09:44,586 - INFO - Login DDT test passed...
+2025-08-27 15:09:45,382 - INFO - ****** End of Login DDT Test *******
+2025-08-27 15:09:45,382 - INFO - ****** Completed TC_LoginDDT_002 ***********
+2025-09-03 23:51:53,864 - INFO - *************** Test_003_AddCustomer ************
+2025-09-03 23:52:01,386 - INFO - ************** Login Succesful **********
+2025-09-03 23:52:01,402 - INFO - ******** Starting Add Customer Test ************
+2025-09-04 00:10:27,097 - INFO - *************** Test_003_AddCustomer ************
+2025-09-04 00:10:32,836 - INFO - ************** Login Succesful **********
+2025-09-04 00:10:32,845 - INFO - ******** Starting Add Customer Test ************
+2025-09-04 00:33:44,181 - INFO - *************** Test_003_AddCustomer ************
+2025-09-04 00:33:50,394 - INFO - ************** Login Succesful **********
+2025-09-04 00:33:50,405 - INFO - ******** Starting Add Customer Test ************
+2025-09-04 22:35:04,890 - INFO - *************** Test_003_AddCustomer ************
+2025-09-04 22:35:11,119 - INFO - ************** Login Succesful **********
+2025-09-04 22:35:11,120 - INFO - ******** Starting Add Customer Test ************
+2025-09-04 22:44:09,425 - INFO - *************** Test_003_AddCustomer ************
+2025-09-04 22:44:16,091 - INFO - ************** Login Succesful **********
+2025-09-04 22:44:16,092 - INFO - ******** Starting Add Customer Test ************
+2025-09-04 22:45:28,056 - INFO - *************** Test_003_AddCustomer ************
+2025-09-04 22:45:35,081 - INFO - ************** Login Succesful **********
+2025-09-04 22:45:35,083 - INFO - ******** Starting Add Customer Test ************
+2025-09-04 22:49:08,482 - INFO - *************** Test_003_AddCustomer ************
+2025-09-04 22:49:14,015 - INFO - ************** Login Succesful **********
+2025-09-04 22:49:14,033 - INFO - ******** Starting Add Customer Test ************
+2025-09-04 22:49:28,007 - INFO - ********** Providing Customerr info *********
+2025-09-04 22:51:20,973 - INFO - *************** Test_003_AddCustomer ************
+2025-09-04 22:51:27,018 - INFO - ************** Login Succesful **********
+2025-09-04 22:51:27,058 - INFO - ******** Starting Add Customer Test ************
+2025-09-04 22:51:41,214 - INFO - ********** Providing Customerr info *********
+2025-09-04 23:21:47,984 - INFO - *************** Test_003_AddCustomer ************
+2025-09-04 23:21:53,481 - INFO - ************** Login Succesful **********
+2025-09-04 23:21:53,503 - INFO - ******** Starting Add Customer Test ************
+2025-09-04 23:23:49,261 - INFO - *************** Test_003_AddCustomer ************
+2025-09-04 23:23:54,764 - INFO - ************** Login Succesful **********
+2025-09-04 23:23:54,766 - INFO - ******** Starting Add Customer Test ************
+2025-09-04 23:24:08,717 - INFO - ********** Providing Customerr info *********
+2025-09-05 07:12:02,973 - INFO - *************** Test_003_AddCustomer ************
+2025-09-05 07:12:11,295 - INFO - ************** Login Succesful **********
+2025-09-05 07:12:11,298 - INFO - ******** Starting Add Customer Test ************
+2025-09-05 07:12:17,961 - INFO - ********** Providing Customerr info *********
+2025-09-05 07:21:13,835 - INFO - *************** Test_003_AddCustomer ************
+2025-09-05 07:21:21,389 - INFO - ************** Login Succesful **********
+2025-09-05 07:21:21,392 - INFO - ******** Starting Add Customer Test ************
+2025-09-05 07:21:27,126 - INFO - ********** Providing Customerr info *********
+2025-09-05 07:25:53,422 - INFO - *************** Test_003_AddCustomer ************
+2025-09-05 07:26:00,737 - INFO - ************** Login Succesful **********
+2025-09-05 07:26:00,738 - INFO - ******** Starting Add Customer Test ************
+2025-09-05 07:26:06,519 - INFO - ********** Providing Customerr info *********
+2025-09-05 07:28:22,905 - INFO - *************** Test_003_AddCustomer ************
+2025-09-05 07:28:28,838 - INFO - ************** Login Succesful **********
+2025-09-05 07:28:28,860 - INFO - ******** Starting Add Customer Test ************
+2025-09-05 07:28:34,167 - INFO - ********** Providing Customerr info *********
+2025-09-05 07:40:00,093 - INFO - *************** Test_003_AddCustomer ************
+2025-09-05 07:40:06,440 - INFO - ************** Login Succesful **********
+2025-09-05 07:40:06,443 - INFO - ******** Starting Add Customer Test ************
+2025-09-05 07:40:12,102 - INFO - ********** Providing Customerr info *********
+2025-09-05 07:40:16,679 - INFO - *********** Saving Customer info **********
+2025-09-05 07:40:16,680 - INFO - ******** Add Customer validation started ********
+2025-09-05 07:40:18,362 - ERROR - ********* Add customer Test Failed *********
+2025-09-05 22:57:49,179 - INFO - *************** Test_003_AddCustomer ************
+2025-09-05 22:57:57,422 - INFO - ************** Login Succesful **********
+2025-09-05 22:57:57,423 - INFO - ******** Starting Add Customer Test ************
+2025-09-05 22:58:02,855 - INFO - ********** Providing Customerr info *********
+2025-09-05 22:58:07,815 - INFO - *********** Saving Customer info **********
+2025-09-05 22:58:07,816 - INFO - ******** Add Customer validation started ********
+2025-09-05 22:58:08,607 - ERROR - ********* Add customer Test Failed *********
+2025-09-05 23:15:32,688 - INFO - *************** Test_003_AddCustomer ************
+2025-09-05 23:15:41,389 - INFO - ************** Login Succesful **********
+2025-09-05 23:15:41,432 - INFO - ******** Starting Add Customer Test ************
+2025-09-05 23:15:46,728 - INFO - ********** Providing Customerr info *********
+2025-09-05 23:15:52,331 - INFO - *********** Saving Customer info **********
+2025-09-05 23:15:52,341 - INFO - ******** Add Customer validation started ********
+2025-09-05 23:15:53,809 - ERROR - ********* Add customer Test Failed *********
+2025-09-05 23:21:34,980 - INFO - *************** Test_003_AddCustomer ************
+2025-09-05 23:21:42,158 - INFO - ************** Login Succesful **********
+2025-09-05 23:21:42,197 - INFO - ******** Starting Add Customer Test ************
+2025-09-05 23:21:47,787 - INFO - ********** Providing Customerr info *********
+2025-09-05 23:29:28,444 - INFO - *************** Test_003_AddCustomer ************
+2025-09-05 23:29:34,235 - INFO - ************** Login Succesful **********
+2025-09-05 23:29:34,237 - INFO - ******** Starting Add Customer Test ************
+2025-09-05 23:29:39,447 - INFO - ********** Providing Customerr info *********
+2025-09-05 23:45:51,673 - INFO - ************ Test_002_DDT_Login ***************
+2025-09-05 23:45:51,678 - INFO - ************ Verifying Login DDT test ***************
+2025-09-05 23:46:51,713 - INFO - ************ Test_002_DDT_Login ***************
+2025-09-05 23:46:51,715 - INFO - ************ Verifying Login DDT test ***************
+2025-09-09 23:27:10,910 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:27:16,338 - INFO - ********* Login Succesful******
+2025-09-09 23:27:16,368 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:27:20,075 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:33:17,652 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:33:23,734 - INFO - ********* Login Succesful******
+2025-09-09 23:33:23,736 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:33:27,745 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:40:38,072 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:40:43,742 - INFO - ********* Login Succesful******
+2025-09-09 23:40:43,747 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:40:47,564 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:41:40,585 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:41:46,206 - INFO - ********* Login Succesful******
+2025-09-09 23:41:46,209 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:41:49,966 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:43:38,808 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:43:44,393 - INFO - ********* Login Succesful******
+2025-09-09 23:43:44,404 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:43:47,949 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:44:29,826 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:44:36,194 - INFO - ********* Login Succesful******
+2025-09-09 23:44:36,232 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:45:38,892 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:45:44,047 - INFO - ********* Login Succesful******
+2025-09-09 23:45:44,053 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:45:47,245 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:49:53,511 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:49:59,399 - INFO - ********* Login Succesful******
+2025-09-09 23:49:59,407 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:50:02,931 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:52:53,083 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:52:58,501 - INFO - ********* Login Succesful******
+2025-09-09 23:52:58,508 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:53:02,179 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:54:00,327 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:54:06,108 - INFO - ********* Login Succesful******
+2025-09-09 23:54:06,112 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:54:09,436 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:54:43,563 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:54:49,332 - INFO - ********* Login Succesful******
+2025-09-09 23:54:49,334 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:54:52,934 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:54:59,517 - INFO - ******** TC_SearchCustomerByEmail_004 Finished ***********
+2025-09-09 23:57:37,824 - INFO - *************** SearchCustomerByEmail_004 ************
+2025-09-09 23:57:47,246 - INFO - ********* Login Succesful******
+2025-09-09 23:57:47,253 - INFO - ********* Starting Search Customer By Email **********
+2025-09-09 23:57:52,276 - INFO - ********** Searching Customer by emailId *******
+2025-09-09 23:57:59,139 - INFO - ******** TC_SearchCustomerByEmail_004 Finished ***********
+2025-09-10 00:09:31,956 - INFO - *************** SearchCustomerByName_005 ************
+2025-09-10 00:09:40,586 - INFO - ********* Login Succesful******
+2025-09-10 00:09:40,587 - INFO - ********* Starting Search Customer By Name **********
+2025-09-10 00:09:45,289 - INFO - ********** Searching Customer by Name *******
+2025-09-10 00:15:32,288 - INFO - *************** SearchCustomerByName_005 ************
+2025-09-10 00:15:37,898 - INFO - ********* Login Succesful******
+2025-09-10 00:15:37,904 - INFO - ********* Starting Search Customer By Name **********
+2025-09-10 00:15:41,578 - INFO - ********** Searching Customer by Name *******
+2025-09-10 00:15:48,421 - INFO - ******** TC_SearchCustomerByName_005 Finished ***********
+2025-09-10 20:50:09,932 - INFO - *************** SearchCustomerByName_005 ************
+2025-09-10 20:50:25,725 - INFO - ********* Login Succesful******
+2025-09-10 20:50:25,761 - INFO - ********* Starting Search Customer By Name **********
+2025-09-10 20:50:32,473 - INFO - ********** Searching Customer by Name *******
+2025-09-10 20:50:41,426 - INFO - ******** TC_SearchCustomerByName_005 Finished ***********
+2025-09-10 23:25:24,785 - INFO - ************ Verifying the Login test ***************
+2025-09-10 23:26:16,516 - INFO - ************  Login test pass ***************
+2025-09-11 00:09:01,129 - INFO - ************ Verifying the Login test ***************
+2025-09-11 00:09:52,069 - INFO - ************  Login test pass ***************
+2025-09-11 00:12:30,621 - INFO - ************ Verifying the Login test ***************
+2025-09-11 00:13:17,015 - INFO - ************  Login test pass ***************
